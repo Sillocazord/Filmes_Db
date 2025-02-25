@@ -10,7 +10,8 @@ builder.Services.AddDbContext<Filmes_Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //Adicionar o repositório e a interface ao container de injeção de dependência
-builder.Services.AddScoped<IGeneroRepository,GeneroRepository>();
+builder.Services.AddScoped<IGeneroRepository, GeneroRepository>(); 
+builder.Services.AddScoped<IFilmeRepositoty, FilmeRepository>();
 
 //Adicionar o serviço de Controlllers
 builder.Services.AddControllers();

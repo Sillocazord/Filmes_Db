@@ -1,3 +1,8 @@
-# api_filmes_senai
-Fit : Criando API no Visual Studio Comunity, Adicionando Domais, Migration e context na API
-"# Filmes_Db" 
+🎥Projeto: [Filmes]🎞️
+
+📽️Luz! Camera! Senai!📼
+
+🎭Sinopse: Usando C#, o projeto a seguir é um protótipo de um site de filmes. Usando API, nossos filmes serão organizados por nome e gênero, onde os úsuarios poderão cadastrar os filmes e seus gêneros.🎟️
+
+🎭
+
